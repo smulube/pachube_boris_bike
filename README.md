@@ -1,7 +1,7 @@
 # Pachube Boris Bike Data
 
 This is a very simple little script for pushing liveish data from Adrian Short's
-[Boris Bike Data API](http://borisbike.heroku.com) into Pachube.
+[Boris Bike Data API](http://borisapi.heroku.com) into Pachube.
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ the values created above.
 
 The other important value to add is the id of the station you want to send
 updates for.  The stations with their ids are listed on the [Boris Bike API
-site](http://borisbike.heroku.com), and the value you need here is the integer
+site](http://borisapi.heroku.com), and the value you need here is the integer
 id.
 
 Ultimately your config.yml file should look something like this:

@@ -7,20 +7,22 @@ Boris Bike Data API (http://borisbike.heroku.com) into Pachube.
 
 * Ruby 1.8.7+
 * Bundler 1.0.2+
-* A Pachube account (http://www.pachube.com)
+* A Pachube account ([http://www.pachube.com](http://www.pachube.com))
 
 ## Installation
 
-The script uses bundler (http://gembundler.com) to manage it's very limited
+The script uses [bundler](http://gembundler.com) to manage it's very limited
 dependencies so the gems can be installed by running:
 
-    $ bundle install
+    $ bundle install --local
 
 ## Create a Pachube feed where data will be sent.
 
 Currently this script doesn't try to create the Pachube environment for you, so
 you'll have to do this manually beforehand. Make a note of the environment id,
-as we'll need this when setting up the config file.
+as we'll need this when setting up the config file. You don't need to set up 
+anything else in the environment, all other data will be pushed by the script
+when it updates.
 
 ## Create a new API key for the application (optional)
 
@@ -45,10 +47,10 @@ updates for.  The stations with their ids are listed on the Boris Bike api site
 
 Ultimately your config.yml file should look something like this:
 
-  :station_id: 32
-  :feed_id: 1928
-  :api_key: 2p-F63EXRgRNovHPV9IoBIWtqlalof-EBy9GdTioveE
-  :api_url: http://api.pachube.com/v2/feeds
+    :station_id: 32
+    :feed_id: 1928
+    :api_key: 2p-F63EXRgRNovHPV9IoBIWtqlalof-EBy9GdTioveE
+    :api_url: http://api.pachube.com/v2/feeds
 
 ## Running the script
 

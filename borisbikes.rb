@@ -49,7 +49,7 @@ end
 
 # Construct the json data we are going to send (ugly)
 feed_data = { :title => "Boris Bike Station: #{station["id"]} - #{station["name"]}",
-              :description => "Liveish data on the current status of this Barclays Cycle hire station. Data sourced from the TFL's bike hire map, via Adrian Shorts's Boris Bike API.",
+              :description => "Liveish data on the current status of this Barclays Cycle hire station. Data sourced from the TFL's bike hire map, via Adrian Short's Boris Bike API.",
               :website => "http://borisapi.heroku.com/",
               :version => "1.0.0",
               :tags => ["boris bikes","london","barclays cycle hire","opendata"],

@@ -52,6 +52,8 @@ Ultimately your config.yml file should look something like this:
     :api_key: 2p-F63EXRgRNovHPV9IoBIWtqlalof-EBy9GdTioveE
     :api_url: http://api.pachube.com/v2/feeds
 
+(The above is not a real api key, but they should look something like that).
+
 ## Running the script
 
 Once the config file has been properly configured, then you should be able to run

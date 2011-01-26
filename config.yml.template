@@ -1,0 +1,4 @@
+:station_id: <station_id>
+:feed_id: <feed_id>
+:api_key: <api_key>
+:api_url: http://api.pachube.com/v2/feeds
